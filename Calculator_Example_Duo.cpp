@@ -18,3 +18,6 @@ int main()
     cout << "2. sayi:";
     cin >> _sayi2;
     cout << endl << endl;
+
+    return(0)
+}
