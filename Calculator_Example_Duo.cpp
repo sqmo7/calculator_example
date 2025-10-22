@@ -45,7 +45,26 @@ int main()
 
 else
 {
+        cout << "ben tanimlanmayan bir islemi yapamam degil mi? (yes/no):)" <<endl;
+        cout << "...";
+        cin >> _hataliIslem;
 
+        if(_hataliIslem == "yes")
+        {
+            cout << "O zaman bir sorun kalamdi. Git ve tekrar islem yap ama bu sefer sinirlarin disina cikma! :/" ;
+        }
+
+        else if( _hataliIslem == "no")
+        {
+            cout << "ne demek no, ozmn kaybol git scriptimden!! :<" ;
+        }
+
+        else
+        {
+            cout << " vay be anliyorum. sen ozmn yes ya da no yazamicak kadar cahilsin. Bundan sonra seni gormezden gelicem, kendi "
+            "hayal dunyanda istedigini yapabilirsin. :3" ;
+        }
+    
 }
     return 0;
 }
